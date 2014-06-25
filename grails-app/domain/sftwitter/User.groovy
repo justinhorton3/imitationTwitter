@@ -7,7 +7,7 @@ class User {
     static constraints = {
         name(null:false)
     }
-    def String user(){
+    def String toString(){
         return name
     }
 }
