@@ -16,6 +16,10 @@
       <configuration>
         <datasource-map>
           <unit-entry name="Gorm" />
+<<<<<<< HEAD
+=======
+          <unit-entry name="hibernate.cfg.xml" />
+>>>>>>> e603b5a2a5918b1fdfa92f3da8516cf55b97a491
           <unit-entry name="target:work:plugins:hibernate4-4.3.5.4:src:java:hibernate.cfg.xml" />
           <unit-entry name="target:work:resources:hibernate.cfg.xml" />
         </datasource-map>
@@ -45,8 +49,11 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+=======
+>>>>>>> e603b5a2a5918b1fdfa92f3da8516cf55b97a491
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
@@ -55,6 +62,11 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
+<<<<<<< HEAD
+=======
+      <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+>>>>>>> e603b5a2a5918b1fdfa92f3da8516cf55b97a491
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-build-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-classes" />
@@ -70,6 +82,7 @@
       <library name="Grails User Library (Twitter)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
+<<<<<<< HEAD
           <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.17.1-GA/javassist-3.17.1-GA.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/2.0.5/liquibase-core-2.0.5.jar!/" />
@@ -99,6 +112,8 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/7.0.53/tomcat-embed-el-7.0.53.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.53/tomcat-embed-jasper-7.0.53.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.53/tomcat-catalina-ant-7.0.53.jar!/" />
+=======
+>>>>>>> e603b5a2a5918b1fdfa92f3da8516cf55b97a491
         </CLASSES>
         <JAVADOC />
         <SOURCES />
